@@ -1,0 +1,52 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"gatTf1B2LO\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">OKR</span>\",\"col\":12}},{\"id\":\"O2UNLYa-Pn\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Objectives\",\"col\":3}},{\"id\":\"V6deRlOUJQ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Key Results\",\"col\":3}},{\"id\":\"2d-_amrb7X\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"vL4ZVaTeHt\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Recent Updates\",\"col\":12}}]",
+ "creation": "2025-01-02 21:35:09.477853",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "projects",
+ "idx": 0,
+ "indicator_color": "",
+ "is_hidden": 0,
+ "label": "OKR",
+ "links": [],
+ "modified": "2025-01-02 21:55:11.492074",
+ "modified_by": "Administrator",
+ "module": "OKR",
+ "name": "OKR",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [
+  {
+   "document_type": "Key Result Update",
+   "label": "Recent Updates",
+   "quick_list_filter": "[[\"Key Result Update\",\"modified\",\"Timespan\",\"this week\",false]]"
+  }
+ ],
+ "roles": [],
+ "sequence_id": 28.0,
+ "shortcuts": [
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "Objectives",
+   "link_to": "Objective",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "List",
+   "label": "Key Results",
+   "link_to": "Key Result",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "OKR"
+}
