@@ -1,0 +1,100 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:initiative_name",
+ "creation": "2025-01-02 20:22:22.826353",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "initiative_name",
+  "key_result",
+  "start_date",
+  "end_date",
+  "status",
+  "column_break_diso",
+  "team",
+  "primary_owner",
+  "section_break_inqd",
+  "description"
+ ],
+ "fields": [
+  {
+   "fieldname": "initiative_name",
+   "fieldtype": "Data",
+   "label": "Initiative Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "key_result",
+   "fieldtype": "Link",
+   "label": "Key Result",
+   "options": "Key Result"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "label": "Start Date"
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Date",
+   "label": "End Date"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Not Started\nIn Progress\nOn Hold\nCompleted\nCancelled"
+  },
+  {
+   "fieldname": "column_break_diso",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "team",
+   "fieldtype": "Link",
+   "label": "Team",
+   "options": "OKR Team"
+  },
+  {
+   "fieldname": "primary_owner",
+   "fieldtype": "Link",
+   "label": "Owner",
+   "options": "User"
+  },
+  {
+   "fieldname": "section_break_inqd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text Editor",
+   "label": "Description"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-02 20:26:46.158194",
+ "modified_by": "Administrator",
+ "module": "OKR",
+ "name": "Initiative",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

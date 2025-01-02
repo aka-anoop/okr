@@ -1,0 +1,92 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{key_result}-{week_start}-{week_end}-{###}",
+ "creation": "2025-01-02 20:26:59.875536",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "key_result",
+  "week_start",
+  "week_end",
+  "column_break_erow",
+  "current_value",
+  "update_status",
+  "updated_by",
+  "section_break_iqhs",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "key_result",
+   "fieldtype": "Link",
+   "label": "Key Result",
+   "options": "Key Result"
+  },
+  {
+   "fieldname": "week_start",
+   "fieldtype": "Date",
+   "label": "Week Start"
+  },
+  {
+   "fieldname": "week_end",
+   "fieldtype": "Date",
+   "label": "Week End"
+  },
+  {
+   "fieldname": "column_break_erow",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "current_value",
+   "fieldtype": "Float",
+   "label": "Current Value"
+  },
+  {
+   "fieldname": "update_status",
+   "fieldtype": "Select",
+   "label": "Update Status",
+   "options": "On Track\nBehind\nBlocked\nDone"
+  },
+  {
+   "fieldname": "updated_by",
+   "fieldtype": "Link",
+   "label": "Updated By",
+   "options": "User"
+  },
+  {
+   "fieldname": "section_break_iqhs",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Text Editor",
+   "label": "Remarks"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-02 21:32:18.467240",
+ "modified_by": "Administrator",
+ "module": "OKR",
+ "name": "Key Result Update",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

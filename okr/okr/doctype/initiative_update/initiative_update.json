@@ -1,0 +1,86 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{initiative}-{week_start}-{week_end}-{###}",
+ "creation": "2025-01-02 21:28:32.968306",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "initiative",
+  "week_start",
+  "week_end",
+  "column_break_ygup",
+  "status",
+  "updated_by",
+  "section_break_ctpg",
+  "description"
+ ],
+ "fields": [
+  {
+   "fieldname": "initiative",
+   "fieldtype": "Link",
+   "label": "Initiative",
+   "options": "Initiative"
+  },
+  {
+   "fieldname": "week_start",
+   "fieldtype": "Date",
+   "label": "Week Start"
+  },
+  {
+   "fieldname": "week_end",
+   "fieldtype": "Date",
+   "label": "Week End"
+  },
+  {
+   "fieldname": "column_break_ygup",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "On Track\nBehind\nBlocked\nCompleted"
+  },
+  {
+   "fieldname": "updated_by",
+   "fieldtype": "Link",
+   "label": "Updated By",
+   "options": "User"
+  },
+  {
+   "fieldname": "section_break_ctpg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text Editor",
+   "label": "Description of Progress"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-02 21:32:03.975650",
+ "modified_by": "Administrator",
+ "module": "OKR",
+ "name": "Initiative Update",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

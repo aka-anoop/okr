@@ -1,0 +1,117 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:kr_title",
+ "creation": "2025-01-02 20:16:21.935189",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "kr_title",
+  "objective",
+  "kr_type",
+  "target_value",
+  "current_value",
+  "is_done",
+  "status",
+  "column_break_rhsa",
+  "team",
+  "primary_owner",
+  "section_break_akgh",
+  "description"
+ ],
+ "fields": [
+  {
+   "fieldname": "kr_title",
+   "fieldtype": "Data",
+   "label": "Ket Result Title",
+   "unique": 1
+  },
+  {
+   "fieldname": "objective",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Objective",
+   "options": "Objective",
+   "reqd": 1
+  },
+  {
+   "fieldname": "kr_type",
+   "fieldtype": "Select",
+   "label": "Key Result Type",
+   "options": "Boolean\nNumeric"
+  },
+  {
+   "fieldname": "target_value",
+   "fieldtype": "Float",
+   "label": "Target Value"
+  },
+  {
+   "fieldname": "current_value",
+   "fieldtype": "Float",
+   "label": "Current Value"
+  },
+  {
+   "default": "0",
+   "depends_on": "doc.kr_type==\"Boolean\"",
+   "fieldname": "is_done",
+   "fieldtype": "Check",
+   "label": "Is Done"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Not Started\nOn Track\nBehind\nDone"
+  },
+  {
+   "fieldname": "column_break_rhsa",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "team",
+   "fieldtype": "Link",
+   "label": "Team",
+   "options": "OKR Team"
+  },
+  {
+   "fieldname": "primary_owner",
+   "fieldtype": "Link",
+   "label": "Owner",
+   "options": "User"
+  },
+  {
+   "fieldname": "section_break_akgh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text Editor",
+   "label": "Description"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-02 20:22:02.886710",
+ "modified_by": "Administrator",
+ "module": "OKR",
+ "name": "Key Result",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,95 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:objective_name",
+ "creation": "2025-01-02 20:10:03.532435",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "objective_name",
+  "okr_cycle",
+  "priority",
+  "status",
+  "column_break_gcpq",
+  "team",
+  "primary_owner",
+  "section_break_fyez",
+  "description"
+ ],
+ "fields": [
+  {
+   "fieldname": "objective_name",
+   "fieldtype": "Data",
+   "label": "Objective Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "okr_cycle",
+   "fieldtype": "Link",
+   "label": "OKR Cycle",
+   "options": "OKR Cycle"
+  },
+  {
+   "fieldname": "priority",
+   "fieldtype": "Select",
+   "label": "Priority",
+   "options": "Low\nMedium\nHigh\nCritical"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Not Started\nIn Progress\nOn Hold\nAchieved\nClosed"
+  },
+  {
+   "fieldname": "column_break_gcpq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "team",
+   "fieldtype": "Link",
+   "label": "Team",
+   "options": "OKR Team"
+  },
+  {
+   "fieldname": "primary_owner",
+   "fieldtype": "Link",
+   "label": "Owner",
+   "options": "User"
+  },
+  {
+   "fieldname": "section_break_fyez",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text Editor",
+   "label": "Description"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-02 20:15:52.172623",
+ "modified_by": "Administrator",
+ "module": "OKR",
+ "name": "Objective",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
